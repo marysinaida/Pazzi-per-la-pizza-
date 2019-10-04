@@ -163,6 +163,7 @@ nav ul{
   .book img{
     float:left;
     margin-bottom: 100%;
+    padding-right: 2%;
   }
   input[type=text], select {
     width: 100%;
