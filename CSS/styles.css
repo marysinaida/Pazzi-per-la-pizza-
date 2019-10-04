@@ -39,7 +39,7 @@ nav ul{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color:#deb8875c;
+    background-color:rgba(173, 105, 16, 0.361);
   }
   nav{
     position:fixed;
