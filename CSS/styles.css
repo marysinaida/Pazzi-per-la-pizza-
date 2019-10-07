@@ -148,9 +148,9 @@ nav ul{
   .row{
     display: flex;
   }
-  .container{
+   #container{
     align-content: center;
-  }
+  } 
   #menu h2{
     font-family: 'Bree Serif', serif;
     text-align: center;
@@ -174,16 +174,16 @@ nav ul{
     border-radius: 4px;
     box-sizing: border-box;
   }
-   
+    
   input[type=submit] {
-    width: 100%;
+    width:100%;
     background-color: #4CAF50;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
     border: none;
     border-radius: 4px 
-  }
+  } 
   #order{
     margin-top: 2%;
     background-color: rgba(173, 105, 16, 0.829)
@@ -192,7 +192,7 @@ nav ul{
     text-align: center;
     text-decoration: underline;
   }
-  #contact{
+   #contact{
     background-color: rgba(173, 105, 16, 0.829) 
   }
   #contact input[type=text], select, textarea {
@@ -206,16 +206,16 @@ nav ul{
     resize: vertical;
   }
   
-  #contact input[type=submit] {
+   #contact input[type=submit] {
     background-color: rgb(76, 130, 175);
     color: white;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-  }
+  } 
   
-  #contact input[type=submit]:hover {
+   #contact input[type=submit]:hover {
     background-color: chocolate;
   }
   
@@ -223,7 +223,7 @@ nav ul{
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
-  }
+  } 
   footer{
     border:0px peachpuff;
     background-color: #f1f1f1f1;
@@ -231,7 +231,9 @@ nav ul{
     padding-top: 10px;
     color: blue;
     font-size: 20px;
-    margin-top: 90px;  
+    margin-top: 90px;
+    text-align: center;
+  }  
 
 
     
