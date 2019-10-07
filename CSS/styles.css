@@ -1,6 +1,6 @@
-body{
+/* body{
   overflow-x: hidden;
-}
+} */
  .land{
 background-image:url("https://st2.depositphotos.com/1684571/6470/i/950/depositphotos_64702939-stock-photo-pizza-with-seafood-on-wood.jpg");
 background-repeat: no-repeat;
@@ -13,13 +13,8 @@ background-color:transparent;
 .logo img{
     width: 15%;
 }
-figcaption{
-    font-size: x-large;
-    font-weight: bolder;
-    font-family: 'Permanent Marker', cursive;
 
 
-}
 .logo{
     box-shadow: 3px 3px 5px transparent;
     width:100%;
@@ -92,64 +87,31 @@ nav ul{
   font-family: 'Cookie', cursive;
   font-size: 30px;
 }
-.view-overlay{
-  position:relative;
-  text-align:center;
-  }
+
   .img-fluid{
     opacity:1;
     display:block;
-    transition: 0.5s ease;
-    -webkit-transition: 0.5s ease;
-    -moz-transition:0.5s ease;
-    backface-visibility: hidden;
     margin: 5px;
     margin-bottom: 15px;
-    margin-left: 7px;
+    margin-left: 80px;
   }
-  
-  .view-overlay:hover .img-fluid{
-    opacity: 0.4;
+
+  #menu h1{
+    margin-left: 80px;
   }
-  .diffrence{
-  transition: 0.5s ease;
-  -webkit-transition: 0.5s ease;
-  -moz-transition: 0.5s ease;
-  -ms-transition: 0.5s ease;
-  -o-transition: 0.5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
-  }
-  .view-overlay:hover .diffrence{
-    opacity: 1;
-  }
+
   
   .text {
     background-color:transparent;
     color: black;
     padding: 16px 32px;
     text-align: center;
+
   }
   
-  .text:hover{
-    background-color:tomato;
-    color: white;
-    opacity: 0.9;
-    font-weight: bolder;
-  }
   .row{
     display: flex;
-  }
-   #container{
-    align-content: center;
+    left:50%;
   } 
   #menu h2{
     font-family: 'Bree Serif', serif;
@@ -160,78 +122,96 @@ nav ul{
   #menu{
     background-color:rgba(173, 105, 16, 0.829);
   }
+
+  .img-fluid{
+    width:246px;
+    height:205px;
+  }
   .book img{
     float:left;
-    margin-bottom: 100%;
-    padding-right: 2%;
+    width:75vh;;
+    height:75vh;
   }
  input[type=text], select {
     width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
+    
+    
   }
     
   input[type=submit] {
-    width:100%;
-    background-color: #4CAF50;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    border-radius: 4px 
+   width:100%;
   } 
+
+  .form-group{
+    width:100%;
+    font-size:20px;
+    margin-bottom:20px;
+  }
   #order{
     margin-top: 2%;
     background-color: rgba(173, 105, 16, 0.829)
   }
-  #order h1{
+  #order h1 {
     text-align: center;
     text-decoration: underline;
+    padding-bottom: 2px;
   }
+
+  #text-center h2{
+    padding-top:2px;
+  }
+  #myForm{
+    float:right;
+    margin-left:350px;
+  }
+
+  
    #contact{
-    background-color: rgba(173, 105, 16, 0.829) 
+    background-color: rgba(173, 105, 16, 0.829) ;
+    margin:50px;
+    
+  }
+
+  .map{
+    margin-top:50px;
+    height:50vh;
+  }
+
+  #text-cont{
+    text-align: center;
   }
   #contact input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
+    /* width: 100%; */
+    padding: 5px;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 2px;
     box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
+    margin-top: 3px;
+    margin-bottom: 6px;
     resize: vertical;
   }
   
    #contact input[type=submit] {
     background-color: rgb(76, 130, 175);
-    color: white;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+
   } 
   
    #contact input[type=submit]:hover {
     background-color: chocolate;
   }
   
-  #contact .container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-  } 
+  
+  
   footer{
     border:0px peachpuff;
-    background-color: #f1f1f1f1;
-    margin-bottom:20px;
-    padding-top: 10px;
+    background-color: beige;
+    padding-top: 5px;
     color: blue;
     font-size: 20px;
-    margin-top: 90px;
     text-align: center;
   }  
 
